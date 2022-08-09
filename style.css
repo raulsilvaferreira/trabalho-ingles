@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor01: #13151E;
+    --cor02: #381C66;
+    --cor03: #444A65;
+    --cor04: #58658D;
+    --cor05: #6C80B8;
+
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+    --titulo: 'Righteous', cursive;
+}
