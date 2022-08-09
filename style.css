@@ -35,6 +35,13 @@ header {
     background-image: linear-gradient(to bottom, var(--cor02), transparent);
 }
 
+main {
+    min-width: 350px;
+    max-width: 800px;
+    background-color: white;
+    
+}
+
 footer {
     background-color: var(--cor01);
     color: rgb(167, 167, 167);
