@@ -17,3 +17,30 @@
     --fonte-padrão: Arial, Helvetica, sans-serif;
     --titulo: 'Righteous', cursive;
 }
+
+body {
+    background-color: var(--cor05);
+    font-family: var(--fonte-padr);
+}
+
+#principal {
+    font-size: 4em;
+    text-align: center;
+    padding: 50px;
+    font-family: var(--titulo);
+    color: var(--cor01);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor02), transparent);
+}
+
+footer {
+    background-color: var(--cor01);
+    color: rgb(167, 167, 167);
+}
+
+footer > p {
+    padding: 5px;
+    text-align: center;
+}
