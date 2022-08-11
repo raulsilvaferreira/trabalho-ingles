@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: var(--cor04);
     font-family: var(--fonte-padrão);
 }
 
@@ -35,10 +35,36 @@ header {
     background-image: linear-gradient(to bottom, var(--cor02), transparent);
 }
 
+nav {
+    padding: 30px;
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
+}
+
+nav > a {
+    text-align: center;
+    padding: 10px;
+    margin-right: 70px;
+    border-radius: 4px;
+    color: var(--cor01);
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.30s;
+}
+
+nav > a:hover {
+    background-color: var(--cor01);
+    color: var(--cor05);
+}
+
 main {
     min-width: 350px;
     max-width: 800px;
     margin: auto;
+    background-color: white;
+    border-radius: 20px 10px;
+    box-shadow: 5px 4px 16px rgba(0, 0, 0, 0.514);
 }
 
 article {
@@ -48,6 +74,48 @@ article {
     min-width: 350px;
     max-width: 800px;
     margin: auto;
+}
+
+
+article img { 
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+#diabetes {
+    max-width: 300px;
+}
+
+div {
+    padding: 30px;
+}
+
+div > a {
+    color: var(--cor04);
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.20s;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+div > a:hover {
+    color: var(--cor01);
+    text-decoration: underline;
+    font-size: 1.5em;
+    background-color: var(--cor05);
+}
+
+a:active {
+    color: white;
+    background-color: black;
+}
+
+article > h1 {
+    color: var(--cor03);
+    text-decoration: underline;
 }
 
 article > h2{
@@ -64,6 +132,7 @@ article > h2{
 footer {
     background-color: var(--cor01);
     color: rgb(167, 167, 167);
+    margin-top: 50px;
 }
 
 footer > p {
